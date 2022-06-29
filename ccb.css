@@ -171,12 +171,48 @@ img p {
 footer {
     text-align: center;
     /*background: url(bg.jpg);*/
-    padding: 150px 0;
+    padding: 80px 0;
+}
+
+.rodapé {
+	font-weigth: bold;
+	position: relative;
+	top: -30px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.input-padrao {
+	display: block;
+	background: #27211e;
+	margin: 20px 0 20px 300px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar {
+	width: 40%;
+	padding: 17px;
+	position: relative;
+	background: #FFFFFF;
+	color: #27211e;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+    opacity: 0.3;
 }
 
 .copyright {
     color: #FFFFFF;
     font-size: 13px;
+    position: relative;
+    top: 120px;
     margin: 20px 0 0;
 }
 
